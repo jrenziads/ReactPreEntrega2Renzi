@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import listaProductos from "../data";
+import './Productos.css';
 
 function Producto (){
     
@@ -8,14 +9,15 @@ function Producto (){
 
     const producto = listaProductos.find((producto)=>producto.id == productoId)
 
-const{thumbnailUrl,title,precio, tipo} = producto;
+const{thumbnailUrl,title,precio, tipo, descripcion} = producto;
 
     return(
         <div>
             <img src={thumbnailUrl} alt=""/>
-            <h3>Descripcion: {title}</h3>
-            <h3>Precio: $ {precio}</h3>
-            <h2>Producto = {productoId}</h2>
+            <h2>Vehiculo: {title}</h2>
+            <h2>Precio: $ {precio}</h2>
+            <h2>Descripcion: {descripcion}</h2>
+            <h3>ID = {productoId}</h3>
             <Link to="/productos">Volver</Link>
         </div>
     )

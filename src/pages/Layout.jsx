@@ -7,7 +7,7 @@ function Layout(){
         <div>
             <NavBar/>
             <Outlet/>
-            <footer>Pie de pagina</footer>
+            <footer>Autos del Sur SA</footer>
         </div>
     )
 }
