@@ -62,7 +62,7 @@ const listaProductos = [
 	{
 		"precio": 33000000,
 		"id": 8,
-		"descripcion": "bla bla bla bla bla bla bla ",
+		
 		"title": "SW4",
 		"thumbnailUrl": "https://raw.githubusercontent.com/jrenziads/JS-ProyestoFinalRenzi/main/imgs/sw4.webp",
         "tipo" : "SUV"

@@ -5,7 +5,6 @@ function Galeria(){
     return (
         <div>
             <h1>Bienvenido/a a Galeria</h1>
-            <Link to="/">Home</Link>
         </div>
     )
 }

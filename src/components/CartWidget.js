@@ -6,7 +6,7 @@ const CartWidget = () => {
             alt="Carrito de Compras"
             width="50"
             height="50"
-          />
+          />          
          </div>
 
     )

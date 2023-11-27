@@ -3,6 +3,7 @@ import listaProductos from '../data';
 import './Productos.css';
 import { Link, useLocation } from 'react-router-dom';
 
+
 function Productos() {
   const location = useLocation();
   const [filtroTipo, setFiltroTipo] = useState('');
